@@ -152,8 +152,8 @@
     "webpack": "2.1.0-beta.15"
   },
   "engines": {
-    "npm": ">=3",
-    "node": ">=6.5.0"
+    "npm": ">=6",
+    "node": ">=8.17.0"
   },
   "keywords": [
     "ethereum",
