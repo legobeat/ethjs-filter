@@ -1,4 +1,4 @@
-const Ganache = require('ganache-core');
+const Ganache = require('ganache-cli');
 const provider = Ganache.provider();
 const Eth = require('ethjs-query');
 const EthFilter = require('../index.js');
