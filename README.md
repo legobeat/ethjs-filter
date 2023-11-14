@@ -1,31 +1,10 @@
 ## ethjs-filter
 
 <div>
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/ethjs/ethjs-filter">
-    <img src="https://david-dm.org/ethjs/ethjs-filter.svg"
-    alt="Dependency Status" />
-  </a>
-
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/ethjs/ethjs-filter#info=devDependencies">
-    <img src="https://david-dm.org/ethjs/ethjs-filter/dev-status.svg" alt="devDependency Status" />
-  </a>
-
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/ethjs-filter">
-    <img src="http://img.shields.io/npm/v/ethjs-filter.svg"
+  <a href="https://www.npmjs.org/package/@metamask/ethjs-filter">
+    <img src="http://img.shields.io/npm/v/@metamask/ethjs-filter.svg"
     alt="NPM version" />
-  </a>
-
-  <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/ethjs/ethjs-filter">
-    <img src="https://coveralls.io/repos/github/ethjs/ethjs-filter/badge.svg" alt="Test Coverage" />
-  </a>
-
-  <!-- Javascript Style -->
-  <a href="http://airbnb.io/javascript/">
-    <img src="https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg" alt="js-airbnb-style" />
   </a>
 </div>
 
@@ -36,7 +15,7 @@ A simple module for handling Ethereum RPC filters that require watching.
 ## Install
 
 ```
-npm install --save ethjs-filter
+npm install --save @metamask/ethjs-filter
 ```
 
 ## Usage
@@ -44,7 +23,7 @@ npm install --save ethjs-filter
 ```js
 const HttpProvider = require('ethjs-provider-http');
 const Eth = require('ethjs-query');
-const EthFilter = require('ethjs-filter');
+const EthFilter = require('@metamask/ethjs-filter');
 const eth = new Eth(new HttpProvider('http://localhost:8545'));
 const filters = new EthFilter(eth);
 
@@ -133,13 +112,13 @@ There is always a lot of work to do, and will have many rules to maintain. So pl
 
 Please consult our [Code of Conduct](CODE_OF_CONDUCT.md) docs before helping out.
 
-We communicate via [issues](https://github.com/ethjs/ethjs-filter/issues) and [pull requests](https://github.com/ethjs/ethjs-filter/pulls).
+We communicate via [issues](https://github.com/MetaMask/ethjs-filter/issues) and [pull requests](https://github.com/MetaMask/ethjs-filter/pulls).
 
 ## Important documents
 
 - [Changelog](CHANGELOG.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](https://raw.githubusercontent.com/ethjs/ethjs-filter/master/LICENSE)
+- [License](https://raw.githubusercontent.com/MetaMask/ethjs-filter/main/LICENSE)
 
 ## Licence
 

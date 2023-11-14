@@ -1,5 +1,5 @@
 {
-  "name": "ethjs-filter",
+  "name": "@metamask/ethjs-filter",
   "version": "0.1.8",
   "description": "A simple filter handler for the Ethereum RPC layer.",
   "main": "lib/index.js",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ethjs/ethjs-filter.git"
+    "url": "https://github.com/MetaMask/ethjs-filter"
   },
   "babel": {
     "plugins": [
@@ -157,9 +157,9 @@
   "author": "Nick Dodson <nick.dodson@consensys.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethjs/ethjs-filter/issues"
+    "url": "https://github.com/MetaMask/ethjs-filter/issues"
   },
-  "homepage": "https://github.com/ethjs/ethjs-filter#readme",
+  "homepage": "https://github.com/MetaMask/ethjs-filter#readme",
   "eslintConfig": {
     "parser": "babel-eslint",
     "extends": "airbnb",

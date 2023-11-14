@@ -5,7 +5,7 @@ All information for developers using `ethjs-filter` should consult this document
 ## Install
 
 ```
-npm install --save ethjs-filter
+npm install --save @metamask/ethjs-filter
 ```
 
 ## Usage
