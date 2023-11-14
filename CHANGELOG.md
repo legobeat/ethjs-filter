@@ -1,15 +1,32 @@
-# 0.1.6 -- unhandled promise rejection
+# Changelog
+All notable changes to this project will be documented in this file.
 
-1. Fixed unhandled promise rejection
-2. Removed promise watch, only for callbacks
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-# 0.1.5 -- config fixes
+## [Unreleased]
 
-1. webpack config updates
-2. build config updates
+## [0.1.6]
+### Removed
+- Removed promise watch, only for callbacks
 
-# 0.0.1 -- ethjs-filter
+### Fixed
+- Fixed unhandled promise rejection
 
-1. Basic testing
-2. Basic docs
-3. License
+## [0.1.5]
+### Changed
+- config fixes
+  - webpack config updates
+  - build config updates
+
+## [0.0.1]
+### Added
+- ethjs-filter
+  - Basic testing
+  - Basic docs
+  - License
+
+[Unreleased]: https://github.com/MetaMask/ethjs-filter/compare/v0.1.6...HEAD
+[0.1.6]: https://github.com/MetaMask/ethjs-filter/compare/v0.1.5...v0.1.6
+[0.1.5]: https://github.com/MetaMask/ethjs-filter/compare/v0.0.1...v0.1.5
+[0.0.1]: https://github.com/MetaMask/ethjs-filter/releases/tag/v0.0.1
