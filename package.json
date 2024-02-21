@@ -125,7 +125,7 @@
     "babel-loader": "^8.0.0",
     "chai": "^4.4.1",
     "cross-env": "^7.0.3",
-    "eslint": "^5.4.0",
+    "eslint": "^7.32.0",
     "ganache-cli": "^6.12.2",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-import-resolver-webpack": "^0.2.4",
@@ -168,14 +168,16 @@
       "mocha": true,
       "es6": true
     },
-    "overrides": {
-      "files": [
-        "src/tests/**.js"
-      ],
-      "rules": {
-        "import/no-extraneous-dependencies": 0
+    "overrides": [
+      {
+        "files": [
+          "src/tests/**.js"
+        ],
+        "rules": {
+          "import/no-extraneous-dependencies": 0
+        }
       }
-    },
+    ],
     "parserOptions": {
       "ecmaVersion": 6,
       "sourceType": "module"
@@ -195,13 +197,15 @@
       ],
       "no-console": 1,
       "max-len": 0,
+      "prefer-object-spread": 0,
       "prefer-template": 2,
       "no-use-before-define": 0,
       "newline-per-chained-call": 0,
       "arrow-body-style": [
         2,
         "as-needed"
-      ]
+      ],
+      "arrow-parens": 0
     }
   },
   "publishConfig": {
