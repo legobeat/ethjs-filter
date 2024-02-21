@@ -124,7 +124,7 @@
     "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.0",
     "chai": "^4.3.10",
-    "cross-env": "^6.0.3",
+    "cross-env": "^7.0.3",
     "eslint": "^5.4.0",
     "ganache-cli": "^6.12.2",
     "eslint-config-airbnb": "^17.1.1",
